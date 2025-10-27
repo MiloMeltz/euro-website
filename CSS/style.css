@@ -1,0 +1,87 @@
+.welcome-line {
+    color: #E2E8F0;
+    font-size: 30px;
+    text-align: center;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+.text-about-me {
+    color: #E2E8F0;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: Nunito;
+}
+.firt-line {
+    width: 540px;
+}
+
+.container {
+  display: flex;
+  height: 100vh; /* เต็มจอ */
+  overflow: hidden;
+}
+
+.left-side {
+  width: 550px;
+  background-color: #17202e;
+  color: #f1f5f9;
+  position: fixed;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+
+.right-side {
+  margin-left: 650px;
+  margin-right: 10px;
+  height: 100vh;
+  
+}
+
+.section {
+  margin-left: 50px;
+  font-family: Quicksand;
+  font-weight: bold;
+  color: #E2E8F0;
+  font-size: 40px;
+  transform: translateY(50px);
+
+}
+
+.Project-box {
+  background-color: #101720;
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transform: translateY(40px);
+  display: flex;
+  font-weight: bold;
+}
+
+.Project-title {
+    width: 500px;
+    height: 5px;
+    color: #E2E8F0;
+    font-family: Nunito;
+    margin-left: 30px;
+    font-size: 30px;
+    transform: translateY(-10px);
+}
+.Project-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.Project-link {
+    text-decoration: none;
+    
+}
+.Project-link:hover .Project-box {
+    background-color: #182431;
+    text-decoration: none;
+}
